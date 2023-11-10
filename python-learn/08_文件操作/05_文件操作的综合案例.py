@@ -3,9 +3,9 @@
 """
 
 # 打开文件得到文件对象，准备读取
-fr = open("D:/bill.txt", "r", encoding="UTF-8")
+fr = open("bill.txt", "r", encoding="UTF-8")
 # 打开文件得到文件对象，准备写入
-fw = open("D:/bill.txt.bak", "w", encoding="UTF-8")
+fw = open("bill.txt.bak", "w", encoding="UTF-8")
 # for循环读取文件
 for line in fr:
     line = line.strip()
