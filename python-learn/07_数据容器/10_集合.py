@@ -32,7 +32,6 @@ print(f"取出差集后的结果是：{set3}")
 print(f"取差集后，原有set1的内容：{set1}")
 print(f"取差集后，原有set2的内容：{set2}")
 
-
 # 消除2个集合的差集
 set1 = {1, 2, 3}
 set2 = {1, 5, 6}
@@ -59,6 +58,9 @@ print(f"集合内的元素数量有：{num}个")
 set1 = {1, 2, 3, 4, 5}
 for element in set1:
     print(f"集合的元素有：{element}")
+
+
+
 
 
 
