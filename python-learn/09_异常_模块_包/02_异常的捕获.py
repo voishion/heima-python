@@ -28,7 +28,7 @@
 try:
     f = open("D:/123.txt", "r", encoding="UTF-8")
 except Exception as e:
-    print("出现异常了")
+    print(f"出现异常了，type=>{type(e)}，error=>{e}")
     f = open("D:/123.txt", "w", encoding="UTF-8")
 else:
     print("好高兴，没有异常。")
