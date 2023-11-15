@@ -12,4 +12,5 @@ def sum_num(*args, **kwargs):
     print(args, kwargs)
 
 
-sum_num(1, 2, 3, age="18")
+num = sum_num(1, 2, 3, age="18")
+print(num)

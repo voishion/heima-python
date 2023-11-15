@@ -4,12 +4,15 @@ def generater(num):
         yield i
         print("生成完成")
 
+
 g = generater(5)
-# print(next(g))
-# print(next(g))
-# print(next(g))
-# print(next(g))
-# print(next(g))
-# print(next(g))
-for i in g:
-    print(i)
+print(next(g))
+print(next(g))
+print(next(g))
+print(next(g))
+print(next(g))
+print(next(g))
+
+# g = generater(5)
+# for i in g:
+#     print(i)
