@@ -15,6 +15,7 @@ class Person(object):
 
     age = property(get_age, set_age)
 
+
 p = Person()
 print(p.age)
 # 设置属性
