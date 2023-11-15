@@ -1,0 +1,24 @@
+2019-07-10 22:33:24,701 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:49] - INFO: 动态资源/index.html
+2019-07-10 22:33:24,877 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/css/bootstrap.min.css
+2019-07-10 22:33:24,891 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/js/jquery-1.12.4.min.js
+2019-07-10 22:33:24,907 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/js/bootstrap.min.js
+2019-07-10 22:33:25,836 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:49] - INFO: 动态资源/center.html
+2019-07-10 22:33:25,850 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/css/bootstrap.min.css
+2019-07-10 22:33:25,850 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/js/jquery-1.12.4.min.js
+2019-07-10 22:33:25,857 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/js/bootstrap.min.js
+2019-07-10 22:33:25,904 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:49] - INFO: 动态资源/center_data.html
+2019-07-10 22:33:25,933 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/fonts/glyphicons-halflings-regular.woff
+2019-07-10 22:33:26,833 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:49] - INFO: 动态资源/index.html
+2019-07-10 22:33:26,858 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/css/bootstrap.min.css
+2019-07-10 22:33:26,869 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/js/jquery-1.12.4.min.js
+2019-07-10 22:33:26,870 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/js/bootstrap.min.js
+2019-07-10 22:33:27,979 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:49] - INFO: 动态资源/index.html
+2019-07-10 22:33:27,998 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/css/bootstrap.min.css
+2019-07-10 22:33:27,999 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/js/jquery-1.12.4.min.js
+2019-07-10 22:33:28,001 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/js/bootstrap.min.js
+2019-07-10 22:33:29,078 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:49] - INFO: 动态资源/index.html
+2019-07-10 22:33:29,110 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/css/bootstrap.min.css
+2019-07-10 22:33:29,110 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/js/jquery-1.12.4.min.js
+2019-07-10 22:33:29,112 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/js/bootstrap.min.js
+2019-07-10 22:33:36,682 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:74] - INFO: 静态资源/inde111x.js
+2019-07-10 22:33:36,682 - 03-框架程序开发_web框架处理动态资源_logging日志.py[line:81] - ERROR: 访问错误路径[Errno 2] No such file or directory: './static/inde111x.js'
