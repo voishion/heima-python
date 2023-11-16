@@ -1,5 +1,5 @@
 """
-演示Python中的range()语句的基本使用
+演示Python中的range()语句的基本使用，[range(3)=>0,1,2; range(1,3)=>1,2;]
 """
 
 # range语法1 range(num)
