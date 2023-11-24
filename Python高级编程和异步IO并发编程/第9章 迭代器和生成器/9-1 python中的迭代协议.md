@@ -12,7 +12,7 @@
 
 ### 自己实现一个迭代器和可迭代对象
 把迭代器和可迭代对象分开, 把维护取值放在迭代器中
-```
+```python
 from collections.abc import Iterator
 
 class Company(object):

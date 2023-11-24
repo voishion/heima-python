@@ -3,7 +3,7 @@
 - join
 
 ## 多线程实例
-```
+```python
 class GetDetailHtml(threading.Thread):
     def __init__(self, name):
         super().__init__(name=name)

@@ -4,7 +4,7 @@
 - 发送get请求, 然后接受数据
 - 对数据进行解析处理
 - 最后断开socket连接
-```
+```python
 #requests -> urlib -> socket
 import socket
 from urllib.parse import urlparse

@@ -1,6 +1,6 @@
 ## 上下文管理器
 ### 异常捕捉中的return
-```
+```python
 def exe_try():
     try:
         print ("code started")

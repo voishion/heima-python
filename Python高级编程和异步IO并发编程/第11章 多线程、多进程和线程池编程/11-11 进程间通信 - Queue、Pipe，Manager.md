@@ -1,4 +1,4 @@
-```
+```python
 import time
 from multiprocessing import Process,Queue,Pool,Manager,Pipe
 # from queue import  Queue #多进程编程中 这个queue不能使用

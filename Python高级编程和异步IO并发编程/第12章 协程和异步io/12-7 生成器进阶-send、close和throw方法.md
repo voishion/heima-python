@@ -1,4 +1,4 @@
-```
+```python
 # def gen_func():
 #     #1.可以产出值，2.可以接受值（调用方传递进来的值）
 #     html = yield "http://projectsedu.com"

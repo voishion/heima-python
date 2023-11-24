@@ -1,5 +1,5 @@
 ## 使用多线程实现多用户连接
-```
+```python
 import socket
 import threading
 
@@ -22,7 +22,7 @@ while True:
     client_thread.start()
 ```
 
-```
+```python
 import socket
 
 server = socket.socket()

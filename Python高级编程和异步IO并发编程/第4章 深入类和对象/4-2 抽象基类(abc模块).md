@@ -7,7 +7,7 @@
 - 第一种用法:我们去检查某个类是否有某一种方法
 
 某些情况之下希望判定某个对象的类型, 可以使用`hasattr`判断是否实现某方法或者使用`isinstance`(推荐)去判断一个类是否是指定的类型, `Sized`就是一个实现`__len__`的抽象基类.
-```
+```python
 class Company(object):
     def __init__(self, employee_list):
         self.employee = employee_list
@@ -41,7 +41,7 @@ print(isinstance(b, A))
 >>> True
 ```
 - 第二种用法: 强制某个子类必须实现某些方法
-```
+```python
 # 模拟抽象基类, 只有在调用set方法的时候才会抛出异常
 class CacheBase():
     def get(self, key):
@@ -79,7 +79,7 @@ redis_cache = RedisCache()
 
 ### collection.abc模块
 在这个模块中定义了很多通用的抽象基类, 比如Sized. 但是这些抽象基类定义出来并不是用来继承的, 更多的是让我们理解接口的一些定义. 推荐使用鸭子类型或者多继承(Mixin)实现, 而少用抽象基类.
-```
+```python
 __all__ = ["Awaitable", "Coroutine",
            "AsyncIterable", "AsyncIterator", "AsyncGenerator",
            "Hashable", "Iterable", "Iterator", "Generator", "Reversible",

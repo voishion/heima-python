@@ -128,7 +128,7 @@
 - \_\_str\_\_
 
 在打印一个实例化对象的时候, python默认会调用str(对象), 对应的魔法函数是\_\_str\_\_
-```
+```python
 class Company(object):
     def __init__(self, employee__list):
         self.employee = employee__list
@@ -144,7 +144,7 @@ print(str(company))
 - \_\_repr\_\_
 
 \_\_repr\_\_是在开发模式下调用的
-```
+```python
 class Company(object):
     def __init__(self, employee__list):
         self.employee = employee__list
@@ -159,7 +159,7 @@ company
 
 再次强调, \_\_repr\_\_不是因为该类继承了某一个对象才能去写这个方法, 魔法函数可以写到任何一个定义的类中去, 然后python解释器就是识别出这个对象有该特性, 然后再调试模式下company会被解释器转换为repr(company), 然后再去调用company.\_\_repr\_\_().
 
-```
+```python
 class Company(object):
     def __init__(self, employee__list):
         self.employee = employee__list

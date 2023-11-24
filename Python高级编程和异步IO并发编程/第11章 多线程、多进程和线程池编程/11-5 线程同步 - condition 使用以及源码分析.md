@@ -1,4 +1,4 @@
-```
+```python
 """第一版本"""
 import threading
 class XiaoAi(threading.Thread):

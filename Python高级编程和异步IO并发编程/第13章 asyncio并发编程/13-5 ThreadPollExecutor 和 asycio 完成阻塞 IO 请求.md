@@ -1,4 +1,4 @@
-```
+```python
 
 #使用多线程：在协程中集成阻塞io
 import asyncio

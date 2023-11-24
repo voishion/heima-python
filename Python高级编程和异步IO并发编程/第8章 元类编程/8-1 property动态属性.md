@@ -1,5 +1,5 @@
 ## 模块的导入
-```
+```python
 from datetime import date, datetime 
 class User:
     def __init__(self, name, birthday):
@@ -16,7 +16,7 @@ from chapter08.text import User
 ## property装饰器(属性方法)
 现在假如一个类有年龄属性, 我们需要设置值并能获取值
 - 方法一: 在`__init__()`中设置age, 但是问题是对于赋值无法添加处理或者校验
-```
+```python
 class Student:
     def __init__(self,name,age):
         self.name=name
@@ -25,7 +25,7 @@ stu = Student('Tom', 12)
 stu.age = 20
 ```
 - 方法二: 使用set_age和get_age
-```
+```python
 class Student:
     def __init__(self, name):
         self.name = name
@@ -46,7 +46,7 @@ print(stu.age)
 ```
 为了让age更安全, 可以改成_age
 - property就是实现了上面的set_age和get_age的作用
-```
+```python
 class Student:
     def __init__(self, name):
         self.name = name

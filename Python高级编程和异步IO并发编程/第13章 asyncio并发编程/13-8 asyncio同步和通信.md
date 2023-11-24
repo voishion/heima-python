@@ -1,4 +1,4 @@
-```
+```python
 # asyncio_lock
 # total =0
  

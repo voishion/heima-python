@@ -13,7 +13,7 @@ GIL的全称是Global Interpreter Lock,
 一个CPU只能执行一个线程, 例如一个CPU 有三个线程, 首先线程A执行, 然后线程A达到释放条件进行释放GIL, 线程B和线程C进行竞争GIL, 谁抢到GIL, 继续执行.
 
 ## GIL无法保证线程绝对安全
-```
+```python
 total = 0
 
 def add():

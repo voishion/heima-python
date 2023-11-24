@@ -1,4 +1,4 @@
-```
+```python
 #通过非阻塞io实现http请求
 #requests -> urlib -> socket
 #使用了非阻塞io完成http请求

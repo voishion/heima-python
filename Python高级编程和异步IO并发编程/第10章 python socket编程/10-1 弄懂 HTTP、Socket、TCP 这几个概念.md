@@ -12,7 +12,7 @@
 django的socket是存在于uwsgi中
 
 ### 数据格式转换
-```
+```python
 import socket, json 
 
 server = socket.socket()

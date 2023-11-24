@@ -1,4 +1,4 @@
-```
+```python
 #python3 新增的yield from语法
 # from itertools import chain
 # my_list = [1,2,3]

@@ -1,6 +1,6 @@
 ## 生成器在List应用
 ### 生成器是一个迭代器
-```
+```python
 def gen_func():
     yield 1
 
@@ -10,7 +10,7 @@ print(isinstance(gen_func(),Iterator))
 
 ### 查看list的源码
 直接dian`a=list`查看list源码发现里面并没有实现方法, 因为list是使用c语言实现的, 但是python中的UserList, 它是python的方式去解释List. 
-```
+```python
 from collections import UserList
 
 class UserList(MutableSequence):
@@ -35,7 +35,7 @@ class Sequence(Reversible, Collection):
 - for循环调用list中的`__iter__()`
 - 第一次调用`__iter__()`会启动生成器, 执行到yeild, 返回一个生成器对象, v的值保存在生成器对象中.
 - for循环拿到值并不断对迭代器调用next, 直到返回异常跳出. 
-```
+```python
 from collections import UserList
 
 class gen_func(UserList):

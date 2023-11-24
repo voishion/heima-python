@@ -2,7 +2,7 @@
 这三个都可以把list进行连接
 - 区别一: + 和 +=占用空间不一样
 
-```
+```python
 a=[1,2,3]
 b=[4,5,6]
 
@@ -14,7 +14,7 @@ print(a) # a还是原来那个list
 ```
 
 - 区别二: + 两边的数据类型要一致
-```
+```python
 a=[1,2,3]
 b=(4,5,6)
 
@@ -29,7 +29,7 @@ print(c)
 原因是因为+=是调用`MutableSequence`中的`__iadd__`, 它是调用`extend`, 接收一个`iterable`并通过for循环append.
 
 - entend和append的区别
-```
+```python
 a=[1,2,3]
 b=(4,5,6)
 

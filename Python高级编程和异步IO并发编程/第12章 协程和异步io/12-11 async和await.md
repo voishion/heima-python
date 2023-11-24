@@ -1,4 +1,4 @@
-```
+```python
 # import inspect
 # def gen_func():
 #     value = yield 1

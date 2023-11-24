@@ -2,7 +2,7 @@
 - clear
 
 clear的功能是对dict的内容进行清除.没有任何的返回值
-```
+```python
 a={"person1":{"Andy":30},"person12":{"Lady":45}}
 a.clear()
 print(a)
@@ -15,13 +15,13 @@ print(a)
 new_list = ["bobby1",'bobby2']
 mew_dict = dicet.fromkeys(new_list,{"company":"imooc"})
 首先这是一个静态方法, 可以直接使用类名调用
-```
+```python
 @staticmethod # known case
 def fromkeys(*args, **kwargs): # real signature unknown
     """ Returns a new dict with keys from iterable and values equal to value. """
     pass
 ```
-```
+```python
 a=["person1","person2"]
 
 b=dict.fromkeys(a,"company")
@@ -32,7 +32,7 @@ print(b)
 - get
 
 解决key没有对应的value报错的问题
-```
+```python
 print(a.get("person",{}))
 ```
 
@@ -52,7 +52,7 @@ default_value=new_dict.setdefault("bobby","imooc")
 
 - update
 两个字典合并
-```
+```python
 a={"person1":{"Andy":30},"person12":{"Lady":45}}
 b={"person1":{"Andy":40},"person20":{"Lady":80}}
 print(b.update(a)) # 没有返回值

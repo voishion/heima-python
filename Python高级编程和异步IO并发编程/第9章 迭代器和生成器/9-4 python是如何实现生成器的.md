@@ -1,5 +1,5 @@
 ## python中函数的工作原理
-```
+```python
 def foo():
     bar()
 def bar():
@@ -10,7 +10,7 @@ foo()
 - 在运行foo函数的时候首先会创建一个栈帧(Stack frame), 这个栈帧是一个上下文, 也是一个对象.
 - 栈帧会将foo函数变成一个字节码对象, 使用dis查看字节码
 - 然后栈帧的上下文中去运行字节码(字节码是全局唯一的)
-```
+```python
 def foo():
     bar()
 def bar():
@@ -28,7 +28,7 @@ None
 ```
 - 当foo调用bar, 又会创建一个新的栈帧, 然后运行bar的字节码
 - 所有的栈帧都是分配在堆的内存上, 如果不释放会一直存在, 所以栈帧可以独立于调用者存在, 就比如调用者foo不存在也没关系, 只要指针指向bar的栈帧就可以控制
-```
+```python
 import inspect
 frame = None
 def foo():
@@ -56,9 +56,7 @@ print(caller_frame.f_code.co_name)
 - 生成器可以在任何时候、任何函数中恢复运行，因为它的栈帧并不在真正的栈中，而是堆中
 - f_lasti指向“最后执行指令”的指针。初始化为 -1，意味着它没开始运行
 
-```
-
-
+```python
 def gen_func():
     yield 1
     name ="bobby"
