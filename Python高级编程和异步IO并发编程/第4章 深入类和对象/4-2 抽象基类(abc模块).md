@@ -42,7 +42,7 @@ print(isinstance(b, A))
 ```
 - 第二种用法: 强制某个子类必须实现某些方法
 ```python
-# 模拟抽象基类, 只有在调用set方法的时候才会抛出异常
+# 模拟抽象基类, 只有在调用set方法的时候才会抛出异常，推荐使用这种
 class CacheBase():
     def get(self, key):
         raise NotImplementedError

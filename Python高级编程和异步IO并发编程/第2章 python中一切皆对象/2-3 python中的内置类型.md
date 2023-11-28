@@ -8,13 +8,13 @@
 
 ## python中的常见内置类型
 - None(全局只有一个)
-```
+```python
 a = None
 b = None
 a和b都是指向同一个对象
 ```
 - 数值
-```
+```python
 int 
 float
 complex
@@ -22,7 +22,7 @@ bool
 ```
 - 迭代类型
 - 序列类型
-```
+```python
 list 
 bytes、bytearray、memoryview(二进制序列)
 range 
@@ -32,20 +32,20 @@ array
 ```
 - 映射(dict)
 - 集合
-```
+```python
 set
 frozenset
 ```
 - 上下文管理类型(with)
 - 其他
-```
+```python
 模块类型
 class和实例函数类型
 方法类型
 代码类型
 object对象
 type类型
-ellipsis类型
+ellipsis类型，省略号类型，……
 notimplemented类对象
 ```
 

@@ -4,7 +4,7 @@
 
 ## type->int->1
 - type->class->obj
-```
+```python
 # 1是通过int这个类实例化的对象, int是通过type这个类实例化的对象
 >>> a = 1
 >>> type(1)
