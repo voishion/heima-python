@@ -28,7 +28,9 @@ print(f"集合被清空啦，结果是：{my_set}")
 set1 = {1, 2, 3}
 set2 = {1, 5, 6}
 set3 = set1.difference(set2)
+set4 = set1 - set2
 print(f"取出差集后的结果是：{set3}")
+print(f"取出差集后的结果是：{set4}")
 print(f"取差集后，原有set1的内容：{set1}")
 print(f"取差集后，原有set2的内容：{set2}")
 
@@ -39,11 +41,30 @@ set1.difference_update(set2)
 print(f"消除差集后，集合1结果：{set1}")
 print(f"消除差集后，集合2结果：{set2}")
 
+# 取2个集合的交集
+set1 = {1, 2, 3}
+set2 = {1, 5, 6}
+set3 = set1.intersection(set2)
+set4 = set1 & set2
+print(f"取出交集后的结果是：{set3}")
+print(f"取出交集后的结果是：{set4}")
+print(f"取交集后，原有set1的内容：{set1}")
+print(f"取交集后，原有set2的内容：{set2}")
+
+# 消除2个集合的交集
+set1 = {1, 2, 3}
+set2 = {1, 5, 6}
+set1.intersection_update(set2)
+print(f"保留交集后，集合1结果：{set1}")
+print(f"保留交集后，集合2结果：{set2}")
+
 # 2个集合合并为1个
 set1 = {1, 2, 3}
 set2 = {1, 5, 6}
 set3 = set1.union(set2)
+set4 = set1 | set2
 print(f"2集合合并结果：{set3}")
+print(f"2集合合并结果：{set4}")
 print(f"合并后集合1：{set1}")
 print(f"合并后集合2：{set2}")
 

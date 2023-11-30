@@ -28,7 +28,7 @@ print(c)
 ```
 原因是因为+=是调用`MutableSequence`中的`__iadd__`, 它是调用`extend`, 接收一个`iterable`并通过for循环append.
 
-- entend和append的区别
+- extend和append的区别
 ```python
 a=[1,2,3]
 b=(4,5,6)
