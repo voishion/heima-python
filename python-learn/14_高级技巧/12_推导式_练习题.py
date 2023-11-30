@@ -42,6 +42,7 @@ result = ';'.join(['{}-{}'.format(k, v) for k, v in info.items()])
 print(result)
 
 # 3.将字典按照键从小到大排序，然后在按照如下格式拼接起来。(微信支付API内部处理需求)a=1&b=2
+# 关键字：字典排序
 info = {
     'sign_type': "MD5",
     'out_refund_no': "12323",
