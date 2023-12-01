@@ -76,3 +76,12 @@ if __name__ == '__main__':
     print("温泉度假村2员工异常：{}".format(company2.staffs))
     print("温泉度假村2员工异常判断：{}".format(company1.staffs is company2.staffs))
     print(Company.__init__.__defaults__)
+
+"""
+    想要解决这个问题，Company类的构造函数需要改成如下:
+    def __init__(self, name, staffs=None):
+        if staffs is None:
+            staffs = []
+        self.name = name
+        self.staffs = staffs
+"""
